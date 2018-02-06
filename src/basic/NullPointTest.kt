@@ -7,5 +7,9 @@ package basic
  */
 fun main(args: Array<String>) {
     var array : Array<Any>? = arrayOf("a",1,3)
-    println(array?.size) //当array不为空的时候,执行
+    array = null
+    array?.let {//当array不为空的时候,执行
+        println(array?.size)
+    }
+    array?: println( "array is null")
 }

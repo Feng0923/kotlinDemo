@@ -17,4 +17,6 @@ fun main(args: Array<String>) {
     val text = "2"
     if(text in array) println("yes") //判断text对象是否在array中
 
+//    for (i )
+
 }
